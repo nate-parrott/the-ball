@@ -1,0 +1,67 @@
+@import url('icons.css');
+
+body {
+  margin: 0px;
+  font-family: "Helvetica";
+  background-color: #eee;
+}
+#main {
+  height: 400px;
+  position: relative;
+  background-image: url(ball.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#main > div {
+  position: absolute;
+  bottom: 40px;
+  right: 20%;
+  text-align: right;
+  color: white;
+  font-size: x-large;
+}
+#main > div > * {
+  float: right;
+  clear: both;
+  background-color: rgba(0,0,0,0.5);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+h2 {
+  margin-top: 2em;
+  margin-bottom: 0em;
+}
+#content {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+#content > * {
+  color: #779;
+}
+#content strong {
+  color: black;
+}
+#features > li {
+  padding: 10px;
+  list-style-type: none;
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+#features h4 {
+  color: black;
+  font-size: x-large;
+}
+#features .icon {
+  font-size: 50px;
+}
+#demo {
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.1);
+  text-align: left;
+  white-space: pre-wrap;
+  padding: 5px;
+}
