@@ -38,10 +38,13 @@ h2 {
   text-align: center;
 }
 #content > * {
-  color: #779;
+  color: #667;
 }
 #content strong {
   color: black;
+}
+#features {
+  padding: 0px;
 }
 #features > li {
   padding: 10px;
@@ -64,4 +67,16 @@ h2 {
   text-align: left;
   white-space: pre-wrap;
   padding: 5px;
+}
+#download {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #eee;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #667;
+  font-size: large;
+  margin-bottom: 1em;
 }

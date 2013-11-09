@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel='stylesheet' href='main.css'/>
+  <title>The Ball Datastore&trade;</title>
 </head>
 <body>
   <div id='main'>
@@ -41,7 +42,11 @@
     <h3>How about a demo?</h3>
     <pre id='demo'>
 # Shell script:
-"INSERT ('Hello, world') INTO Ball" > /dev/null
+ball write "INSERT ('Hello, world') INTO Ball"
+&gt;&gt; wow write success
+
+
+# Here's a sneak peek of some of our future language bindings:
 
 # Python:
 def write_to_ball(query):
@@ -71,5 +76,6 @@ $query = stressql_completely_legit_escape_string_for_real_this_time_guys($query)
 stressql_query($query) or die(__halt_compiler());
 
     </pre>
+    <a id='download' href='https://github.com/nate-parrott/the-ball/'>Download on Github</a>
 </body>
 </html>
