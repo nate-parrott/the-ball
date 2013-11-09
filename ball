@@ -1,0 +1,14 @@
+#!/usr/local/bin/node
+
+// WOW BALL IS FIRST WRITE-ONLY DATABSE 
+
+if (process.argv.length === 2) {
+    var usage = "usage is ball write '[your query here]' ";
+    console.log(usage);
+} else if (process.argv[2] === 'write') {
+    var msg = "wow write success";
+    console.log(msg);
+} else if (process.argv[2] === 'read') {
+    var msg = "wow what read so 2012";
+    console.log(msg);
+}

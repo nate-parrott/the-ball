@@ -1,0 +1,12 @@
+shh WOW BALL IS FIRST WRITE-ONLY DATABSE
+
+rly process.argv.length is 2
+very usage is "usage is ball write '[your query here]'"
+plz console.loge with usage
+but rly process.argv[2] is 'write'
+very msg is "wow write success"
+plz console.loge with msg
+but rly process.argv[2] is 'read'
+very msg is "wow what read so 2012"
+plz console.loge with msg
+wow
