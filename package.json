@@ -1,0 +1,23 @@
+{
+  "name": "the-ball",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "BallTeam <nateparro2t@gmail.com>",
+  "description": "World's first write-only datastore",
+  "bin": {
+    "ball": "./ball"
+  },
+  "main": "./lib/http-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nate-parrott/the-ball.git"
+  },
+  "keywords": [
+    "database",
+    "sql",
+    "relational"
+  ],
+  "engines": {
+    "node": ">=0.6"
+  }
+}
