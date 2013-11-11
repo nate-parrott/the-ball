@@ -86,3 +86,10 @@ h2 {
   font-size: large;
   margin-bottom: 1em;
 }
+th, td {
+  padding: 2px;
+}
+blockquote footer {
+  display: block;
+  font-style: italic;
+}
